@@ -1,11 +1,10 @@
-Waterfall
-=========
-
-> [!CAUTION]
-> This project has reached end of life and is no longer maintained.  
-> We recommend you transition to [Velocity](https://papermc.io/software/velocity). For more information, see the [announcement](https://forums.papermc.io/threads/1088/).
+# Waterfall (fork)
 
 Waterfall is a fork of the well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
+
+This project is a fork of Waterfall, updated for newer versions of BungeeCord.
+
+Please report issues related to this version of Waterfall at this repository, not the original upstream one.
 
 Waterfall focuses on three main areas:
 
@@ -29,17 +28,22 @@ Download a copy of Waterfall.jar from our homepage here: [Waterfall](https://pap
 Waterfall requires **Java 8** or above.
 
 ## How To (Plugin Developers)
-------
- * See our API patches [here](BungeeCord-Patches)
- * Waterfall API JavaDocs here: [papermc.io/javadocs](https://jd.papermc.io/waterfall/1.20)
- * Maven repository (for `waterfall-api`):
+
+---
+
+- See our API patches [here](BungeeCord-Patches)
+- Waterfall API JavaDocs here: [papermc.io/javadocs](https://jd.papermc.io/waterfall/1.20)
+- Maven repository (for `waterfall-api`):
+
 ```xml
 <repository>
     <id>papermc</id>
     <url>https://repo.papermc.io/repository/maven-public/</url>
 </repository>
 ```
- * Artifact information:
+
+- Artifact information:
+
 ```xml
 <dependency>
     <groupId>io.github.waterfallmc</groupId>
@@ -47,11 +51,12 @@ Waterfall requires **Java 8** or above.
     <version>1.20-R0.3-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
- ```
+```
 
 **Or alternatively, with Gradle:**
 
- * Repository:
+- Repository:
+
 ```groovy
 repositories {
     maven {
@@ -59,7 +64,9 @@ repositories {
     }
 }
 ```
- * Artifact:
+
+- Artifact:
+
 ```groovy
 dependencies {
     compileOnly 'io.github.waterfallmc:waterfall-api:1.20-R0.3-SNAPSHOT'
@@ -70,13 +77,11 @@ dependencies {
 
 To compile Waterfall, you need JDK8, git, bash, maven, and an internet connection.
 
-Clone this repo, run `./waterfall b` from *bash*, get jar from Waterfall-Proxy/bootstrap/target/
+Clone this repo, run `./waterfall b` from _bash_, get jar from Waterfall-Proxy/bootstrap/target/
 
 ## Join us
 
-* Feel free to open a PR! We accept contributions.
-* Join us on [Discord](https://discord.gg/papermc).
-* Visit our forums (https://forums.papermc.io/).
+- Feel free to open a PR! We accept contributions.
 
 ## Special Thanks To
 

@@ -446,7 +446,7 @@ index cea355bd..b946e1bd 100644
  
      <properties>
 -        <module.author>SpigotMC</module.author>
-+        <module.author>WaterfallMC</module.author>
++        <module.author>GrapheneMC</module.author>
          <maven.deploy.skip>true</maven.deploy.skip>
          <maven.javadoc.skip>true</maven.javadoc.skip>
      </properties>
@@ -534,13 +534,13 @@ index 7335e8b7..b882440f 100644
 -    <inceptionYear>2012</inceptionYear>
 +    <name>Waterfall-Parent</name>
 +    <description>Parent project for all Waterfall modules.</description>
-+    <url>https://github.com/WaterfallMC/Waterfall</url>
++    <url>https://github.com/GrapheneMC-dev/Waterfall</url>
 +    <inceptionYear>2015</inceptionYear>
      <organization>
 -        <name>SpigotMC</name>
 -        <url>https://github.com/SpigotMC</url>
-+        <name>WaterfallMC</name>
-+        <url>https://github.com/WaterfallMC</url>
++        <name>GrapheneMC</name>
++        <url>https://github.com/GrapheneMC-dev</url>
      </organization>
      <licenses>
          <license>
@@ -572,14 +572,14 @@ index 7335e8b7..b882440f 100644
 -        <connection>scm:git:git@github.com:SpigotMC/BungeeCord.git</connection>
 -        <developerConnection>scm:git:git@github.com:SpigotMC/BungeeCord.git</developerConnection>
 -        <url>git@github.com:SpigotMC/BungeeCord.git</url>
-+        <connection>scm:git:git@github.com:com:WaterfallMC/Waterfall.git</connection>
-+        <developerConnection>scm:git:git@github.com:WaterfallMC/Waterfall.git</developerConnection>
-+        <url>git@github.com:WaterfallMC/Waterfall.git</url>
++        <connection>scm:git:git@github.com:com:GrapheneMC-dev/Waterfall.git</connection>
++        <developerConnection>scm:git:git@github.com:GrapheneMC-dev/Waterfall.git</developerConnection>
++        <url>git@github.com:GrapheneMC-dev/Waterfall.git</url>
      </scm>
      <issueManagement>
          <system>GitHub</system>
 -        <url>https://github.com/SpigotMC/BungeeCord/issues</url>
-+        <url>https://github.com/PaperMC/Waterfall/issues</url>
++        <url>https://github.com/GrapheneMC-dev/Waterfall/issues</url>
      </issueManagement>
 -    <ciManagement>
 -        <system>jenkins</system>

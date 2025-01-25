@@ -10,7 +10,7 @@
 
     <name>Waterfall-Super</name>
     <description>Super project for Waterfall.</description>
-    <url>https://github.com/WaterfallMC/Waterfall</url>
+    <url>https://github.com/GrapheneMC-dev/Waterfall</url>
 
     <modules>
         <module>Waterfall-Proxy</module>
